@@ -1,0 +1,1 @@
+{"cmd": "\n%%timeit\n# Select all rows with \"offer_type\" == \"RENT\" and \"rent_net\" > 3000\ndf[(df[\"offer_type\"].values == \"RENT\") & (df[\"rent_net\"].values > 3000)].head()\n", "cmd_opts": " --cell_id=5musZBUe16 -s", "import_complete": 1, "terminal": "nvimterm"}
